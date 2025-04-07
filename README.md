@@ -16,12 +16,12 @@
 프로토콜(Protocol)
    사용자의 요청에 반드시 응답해야 한다는 규약이다.
 
-   - http(Hypertext Transfer Protocol)
+  ~~~ - http(Hypertext Transfer Protocol)
       클라이언트와 서버 간의 웹 페이지 등의 자원을 통신하는 규약
       텍스트로 통신하기 때문에 가로채어 본다면 누구든 내용을 볼 수 있다.
 
    - https(Hypertext Transfer Secure Protocol)
-      자원을 공개키 암호화 방식으로 암호화해서 통신하는 규약
+      자원을 공개키 암호화 방식으로 암호화해서 통신하는 규약~~~
 
 IP(Internet Protocol)
    네트워크 상에서 인터넷에 접속할 때 다른 컴퓨터와 구별될 수 있도록 하는 고유 번호이다.
