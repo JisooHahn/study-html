@@ -1,0 +1,142 @@
+<!-- 회원 가입 페이지 찾기 -->
+<!-- 화면에 나오는 input태그의 개수에 맞게, 타입에 맞게 작성해보기 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>form 태그 - 실습</title>
+        <link
+            rel="shortcut icon"
+            href="https://nid.naver.com/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <form>
+            <div>
+                <div><h1 style="color: #09aa5c">NAVER</h1></div>
+                <div>
+                    <label>
+                        실명 인증된 아이디로 가입<input
+                            type="checkbox"
+                            name="check"
+                        />
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <span></span>
+                        <span
+                            ><input
+                                type="text"
+                                name="userId"
+                                placeholder="아이디" /></span
+                        >@naver.com
+                    </div>
+                    <div>
+                        <input
+                            type="password"
+                            name="userPassword"
+                            placeholder="비밀번호"
+                        />
+                        <span></span>
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            name="email"
+                            placeholder="[선택]이메일주소 (비밀번호 찾기 밑 본인 확인용)"
+                        />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" name="username" placeholder="이름" />
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            name="birth"
+                            placeholder="생년월일 8자리"
+                        />
+                    </div>
+                    <div>
+                        <select name="telecom">
+                            <option value="selected">통신사 선택</option>
+                            <option value="skt">SKT</option>
+                            <option value="kt">KT</option>
+                            <option value="lg">LG U+</option>
+                            <option value="sktcheap">SKT 알뜰폰</option>
+                            <option value="ktcheap">KT 알뜰폰</option>
+                            <option value="lgcheap">LG U+ 알뜰폰</option>
+                        </select>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="남자"
+                                />남자
+                            </label>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="여자"
+                                />여자
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="country"
+                                    value="내국인"
+                                />내국인
+                            </label>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="country"
+                                    value="외국인"
+                                />외국인
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            name="phone"
+                            placeholder="휴대전화번호"
+                        />
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="check" />[필수] 인증 약관
+                        전체동의
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label>
+                    <input
+                        type="submit"
+                        value="인증요청"
+                        style="
+                            background-color: #09aa5c;
+                            color: #fff;
+                            border: none;
+                            cursor: pointer;
+                        "
+                    />
+                </label>
+            </div>
+        </form>
+    </body>
+</html>

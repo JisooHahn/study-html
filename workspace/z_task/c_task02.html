@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>task02</title>
+        <style>
+            body {
+                margin: auto;
+            }
+
+            .first {
+                color: green;
+            }
+
+            .blue {
+                color: blue;
+            }
+
+            .yellowgreen {
+                color: yellowgreen;
+            }
+
+            .text {
+                border: 2px solid salmon;
+                width: 22%;
+                height: 22px;
+                white-space: nowrap;
+                overflow: hidden;
+                transition-property: scale, height, width, background-color,
+                    font-weight;
+                transition-duration: 1s;
+            }
+
+            .text:hover {
+                scale: 105%;
+                height: 70px;
+                width: 30%;
+                background-color: blanchedalmond;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <h1>뉴스</h1>
+            <h2>주요 뉴스</h2>
+            <div class="text">
+                <li class="first">한국당 좌파 야합 반발, 정치투쟁 예고</li>
+                <li>
+                    <span class="blue">세월호 CCTV</span> 조작, 특조위에서
+                    밝힌다.
+                </li>
+                <li><span class="blue">조선업 회복</span> 앞당긴다.</li>
+            </div>
+        </ul>
+        <ul>
+            <h2>연예</h2>
+            <div class="text">
+                <li class="first">
+                    어벤져스 : 앤드게임 개봉 4시간 만에 100만 돌파
+                </li>
+                <li>
+                    김상혁 피규어
+                    <span class="yellowgreen">3000만원어치</span> 수집
+                </li>
+                <li>
+                    랜선라이프
+                    <span class="yellowgreen">이영자, 구독자 수</span> 보면
+                    열심히 하게돼
+                </li>
+            </div>
+        </ul>
+        <ul>
+            <h2>스포츠</h2>
+            <div class="text">
+                <li class="first">3위 굳건 토트넘, 자력 UCL 유력해졌다.</li>
+                <li>에릭센 팬 서비스도 월드 클래스</li>
+                <li>영국 현지, 이제 손흥민의 시대</li>
+            </div>
+        </ul>
+    </body>
+</html>
