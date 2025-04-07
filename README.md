@@ -16,7 +16,8 @@
 프로토콜(Protocol)
    사용자의 요청에 반드시 응답해야 한다는 규약이다.
 
-```text - http(Hypertext Transfer Protocol)
+```text
+   - http(Hypertext Transfer Protocol)
       클라이언트와 서버 간의 웹 페이지 등의 자원을 통신하는 규약
       텍스트로 통신하기 때문에 가로채어 본다면 누구든 내용을 볼 수 있다.
 
