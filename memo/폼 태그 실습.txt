@@ -1,0 +1,67 @@
+<!-- 회원 가입 페이지 찾기 -->
+<!-- 화면에 나오는 input태그의 개수에 맞게, 타입에 맞게 작성해보기 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>form 태그 - 실습</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <div>
+                    <label>
+                        실명 인증된 아이디로 가입
+                        <input type="checkbox" />
+                    </label>
+                </div>
+                <div>
+                    <div><input type="text" /></div>
+                    <div><input type="password" /></div>
+                    <div><input type="text" /></div>
+                </div>
+                <div>
+                    <div><input type="text" /></div>
+                    <div><input type="text" /></div>
+                    <div>
+                        <select name="tel">
+                            <option value="SKT">SKT</option>
+                            <option value="KT">KT</option>
+                            <option value="LG">LG</option>
+                            <option value="SKT 알뜰폰">SKT 알뜰폰</option>
+                            <option value="KT 알뜰폰">KT 알뜰폰</option>
+                            <option value="LG 알뜰폰">LG 알뜰폰</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                            <label>
+                                <input type="radio" name="gender" /> 남자
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" /> 여자
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="type" /> 내국인
+                            </label>
+                            <label>
+                                <input type="radio" name="type" /> 외국인
+                            </label>
+                        </div>
+                    </div>
+                    <div><input type="text" /></div>
+                </div>
+                <div>
+                    <label
+                        ><input type="checkbox" /> [필수]인증 약관
+                        전체동의</label
+                    >
+                </div>
+                <button>인증 요청</button>
+            </div>
+        </form>
+    </body>
+</html>

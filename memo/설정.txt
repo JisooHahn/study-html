@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.port": 3000,
+    "editor.fontSize": 25,
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontSize": 30,
+    "debug.console.fontSize": 30,
+    // '===' 같은 문자가 하나로 합쳐지지 않도록 설정
+    "editor.fontLigatures": false,
+    "json.schemas": [
+        
+    ]
+}

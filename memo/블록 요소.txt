@@ -1,0 +1,35 @@
+HTML 요소의 종류
+
+▶ 블록 요소
+   - p, h, ul, ol, div, form, ... 등
+   - 웹 페이지 상에 블록(영역)을 만드는 태그
+   - 코드 상에 한 줄로 이어써도 화면 상에서는 뒤에 있는 요소가 들어갈 공간이 없기 때문에
+     아래줄로 내려가게 된다.
+      [코드]
+      <p>apple</p><p>banana</p>
+
+      [화면]
+      apple
+      banana
+   - 영역이 정확히 구분되어 있기 때문에, width와 height 속성을 수정할 수 있다.
+   - margin-top, margin-bottom 속성도 잘 적용된다.
+   - padding-top, padding-bottom 속성도 잘 적용된다.
+
+▶ 인라인 요소
+   - span, a, img, strong, em, ... 등
+   - 새로운 영역을 만들지 않고 작성한 단락 내에 나타난다.
+   - 안에 있는 내용만큼만 영역을 차지하고 기본적으로 가지고 있는 영역은 없다.
+      [코드]
+      <span>apple</span><strong>banana</strong>
+      
+      [화면]
+      applebanana
+
+   - 영역이 정확히 구분되어 있지 않기 때문에, width와 height를 임의로 부여할 수 없다.
+   - margin-top, margin-bottom 속성은 부여할 수 없다.
+   - padding-top, padding-bottom 속성은 적용되지만, 전체적인 구조를 잡기 힘들다.
+
+▶ 인라인 블록 요소
+   - button, input, select, ... 등
+   - 인라인 요소와 동일한 영역(내용만큼)을 가지지만 본인만의 영역을 정확히 가지고 있다.
+   - width, height 를 설정할 수 있고, margin, padding도 모두 잘 적용된다.
